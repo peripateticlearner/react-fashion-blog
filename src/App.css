@@ -1,0 +1,55 @@
+html {
+  border-left: 5px solid lightgray;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: tomato;
+}
+
+article {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+
+article a {
+  display: block;
+  text-align: right;
+  color: tomato;
+  font-weight: bold;
+}
+
+article img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: lightgray;
+}
+
+
+
+.header-nav ul, .footer-nav ul {
+  display: flex; 
+  justify-content: center; 
+  list-style: none; 
+  padding: 0; 
+  gap: 1rem; 
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: lightgray; 
+}
+
+.footer-nav a {
+  color: tomato;
+}
