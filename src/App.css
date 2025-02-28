@@ -53,3 +53,11 @@ footer {
 .footer-nav a {
   color: tomato;
 }
+
+@media (Max-width: 680px) {
+  .header-nav ul, .footer-nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+  }
+}
